@@ -1,0 +1,11 @@
+{
+	"name": "stack",
+	"version": "0.0.1",
+	"title": "stack size",
+	"author": "bmzk",
+    "homepage": "",
+	"factorio_version": "0.17",
+	"dependencies": ["base >= 0.16" ],
+	"description": "增加部分物品叠加数目为1000."
+
+}
