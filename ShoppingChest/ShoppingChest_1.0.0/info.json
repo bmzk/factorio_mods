@@ -1,0 +1,9 @@
+{
+    "name": "ShoppingChest",
+    "version": "1.0.0",
+    "title": "ShoppingChest",
+    "author": "bmzk",
+    "factorio_version": "0.17",
+    "dependencies": ["base >= 0.16" ],
+    "description": "买卖物品的箱子，买入价格是卖出价格的两倍，当金钱为负时不能买东西。价格数据储存在price.lua文件中。"
+}
