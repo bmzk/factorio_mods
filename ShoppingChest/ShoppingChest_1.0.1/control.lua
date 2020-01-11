@@ -1,7 +1,11 @@
 require 'mod-gui'
 require("price")
-
-local mymoney=0
+local k=100.001
+local mymoney=k
+local function refresh()
+  local  label = mod_gui.get_frame_flow(game.players[1]).myframe.table.label
+  label.caption=string.format("%d", mymoney)
+end
 
 local function f()
   --game.players[1].print("function f() is starting .......")
@@ -57,43 +61,27 @@ local function f()
     end
   end
 end
-
-local nth=1
 local t=100
 local function on_tick(event)
-    nth=nth+1
-    if nth % t ==0 then 
+    if math.floor(game.tick % t) ==0 then 
+      --game.players[1].print("shoppingchest tick= "..game.tick)
+      local  label = mod_gui.get_frame_flow(game.players[1]).myframe.table.label
+      mymoney=tonumber(label.caption)
       f()
-      mod_gui.get_button_flow(game.players[1]).bt1.caption = "Money: "..mymoney
+      label.caption=string.format("%d", mymoney)
       --game.players[1].print("nth")
     end
 end
 script.on_event(defines.events.on_tick,on_tick)
 ------------------------------------------------------------------
----money 按钮事件--------------------------------------------------
-
 local function create_gui(event)
-    --创建按钮
-    local bt1=mod_gui.get_button_flow(game.players[1]).add{
-        type = "button", name="bt1", caption={"Money: "}, style = mod_gui.button_style}
-    --game.players[1].print("create_gui() ok")
-    --game.players[1].print("button.name="..bt1.name)
+    --创建gui
+    if mod_gui.get_frame_flow(game.players[1]).myframe ==nil  then 
+      local  myframe = mod_gui.get_frame_flow(game.players[1]).add{
+            type="frame", name="myframe", caption = "金钱系统", direction="vertical"}
+      local table = myframe.add{type="table", name="table", column_count=2}
+      table.add{type="label", caption="Money : ", style="caption_label"}
+      table.add{type="label", caption=k,name="label"}
+   end
 end
 script.on_event(defines.events.on_player_created, create_gui)
-local function on_gui_click(event)
-    --按钮事件
-    --game.players[1].print("if will start")
-    if(event.element.name == "bt1") then
-        --f()
-        --mymoney=mymoney+1
-        --local bt = mod_gui.get_button_flow(game.players[1]).bt1
-        --game.players[1].print("button.name = "..bt.name)
-        mod_gui.get_button_flow(game.players[1]).bt1.caption = "Money: "..mymoney
-        --game.players[1].print(bt.caption)
-    end
-
-    --game.players[1].print("f() ........")
-end
-script.on_event(defines.events.on_gui_click, on_gui_click)
-
-

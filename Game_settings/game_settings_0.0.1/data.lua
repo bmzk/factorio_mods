@@ -19,3 +19,5 @@ end
 if data.raw.item["loader"] ~= nil then
   data.raw.item["loader"].flags = {}
 end
+
+--fluid-wagon

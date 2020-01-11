@@ -1,9 +1,8 @@
 {
 	"name": "auto_turret",
-	"version": "0.0.1",
+	"version": "0.0.3",
 	"title": "bmzk自动机枪",
-	"author": "bmzk",	
-    "homepage": "https://mods.factorio.com/mod/auto_turret",
+	"author": "bmzk",
 	"factorio_version": "0.17",
 	"dependencies": ["base >= 0.16" ],
 	"description": " 机枪自动回血和补充弹药."
