@@ -1,9 +1,8 @@
 {
-	"name": "game_settings",
-	"version": "0.0.1",
-	"title": "bmzk修改游戏设置",
-	"author": "bmzk",
-    "homepage": "",
+	"name": "fpc_game_settings",
+	"version": "0.0.4",
+	"title": "fpc_修改游戏设置",
+	"author": "fpc987",
 	"factorio_version": "0.17",
 	"dependencies": ["base >= 0.16" ],
 	"description": "修改一些游戏设置。主要有蓄电池，插件分享塔，装载机。\nChange some game setting."
