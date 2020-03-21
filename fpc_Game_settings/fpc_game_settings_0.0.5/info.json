@@ -1,8 +1,10 @@
 {
 	"name": "fpc_game_settings",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"title": "fpc_修改游戏设置",
 	"author": "fpc987",
+	"contact":"bmzk123@163.com",
+	"homepage":"",
 	"factorio_version": "0.17",
 	"dependencies": ["base >= 0.16" ],
 	"description": "修改一些游戏设置。主要有蓄电池，插件分享塔，装载机。\nChange some game setting."
