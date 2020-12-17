@@ -1,0 +1,26 @@
+data:extend(
+{
+  {
+    type = "recipe",
+    name = "speed-module",
+    ingredients =
+    {
+      {"copper-plate", 5},
+      {"iron-plate", 5}
+    },
+    result = "speed-module"
+  },
+
+  {
+    type = "recipe",
+    name = "productivity-module",
+    ingredients =
+    {
+      {"copper-plate", 5},
+      {"iron-plate", 5}
+    },
+    result = "productivity-module"
+  },
+
+}
+)

@@ -1,0 +1,9 @@
+{
+  "name": "vanilla-loaders",
+  "version": "1.0.0",
+  "factorio_version": "1.0",
+  "title": "Vanilla loaders",
+  "author": "Thaui",
+  "description": "Add loader, fast loader and express loader with a vanilla look and feel.\n这个是别人的mod，游戏版本更新了作者没更新，我对mod版本进行了更新",
+  "dependencies": ["base"]
+}

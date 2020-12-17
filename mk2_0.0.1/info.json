@@ -1,0 +1,13 @@
+{
+    "name": "mk2",
+    "version": "0.0.1",
+    "title": "bmzk的MOD之超级装甲",
+    "author": "bmzk",
+    "contact": "admin@com",
+    "homepage": "bmzk的自用mod",
+    "description": "mk2装甲格子由40x40改为20x30\n",
+    "factorio_version": "0.16",
+    "dependencies": [
+        "base"
+    ]
+}

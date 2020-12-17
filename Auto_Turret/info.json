@@ -1,0 +1,10 @@
+{
+	"name": "auto_turret",
+	"version": "0.0.11",
+	"title": "fpc_自动机枪",
+	"author": "fpc987",
+	"factorio_version": "1.0",
+	"dependencies": ["base >= 0.16" ],
+    "description": " 修改了机枪自动回血和补充弹药.消耗金钱回复普通弹药，并恢复血量。\n  机枪和激光炮塔：\n  血量: 400 >> 25000 \n  攻击距离: 18 >> 55 \n 启用金币"
+
+}

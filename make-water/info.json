@@ -1,0 +1,9 @@
+﻿{
+    "name": "make-water",
+    "version": "1.0.0",
+    "title": "fpc_制造水",
+    "author": "fpc987",
+    "description": "蒸汽造水",
+    "factorio_version":"1.0",
+    "dependencies":["base"]
+}

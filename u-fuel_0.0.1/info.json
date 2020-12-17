@@ -1,0 +1,12 @@
+﻿{
+    "name": "u-fuel",
+    "version": "0.0.1",
+    "title": "u-fuel",
+    "author": "FuPC",
+    "description": "添加配方:\n 8个核能燃料合成为1个铀燃料棒\n",
+    "factorio_version":"0.16",
+    "dependencies":
+    [
+        "base"
+    ]
+}

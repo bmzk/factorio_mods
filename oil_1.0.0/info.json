@@ -1,0 +1,12 @@
+{
+    "name": "oil",
+    "version": "1.0.0",
+    "title": "fpc_石油相关",
+    "author": "fpc987",
+    "description": 
+    "改动：\n煤炭液化原料去除重油，现在只需要蒸汽和煤炭\n 硫酸=煤*5,\n 塑料=煤*2，\n炸药=煤， \n 煤=铁 + 铜",
+    "factorio_version": "1.0",
+    "dependencies": [
+        "base"
+    ]
+}

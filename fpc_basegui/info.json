@@ -1,0 +1,10 @@
+{
+	"name": "fpc_basegui",
+	"version": "1.0.1",
+	"title": "fpc_基础面板",
+	"author": "fpc987",
+	"factorio_version": "1.0",
+	"dependencies": ["base" ],
+	"description": "用于创建一个面板,供其他mod使用"
+
+}

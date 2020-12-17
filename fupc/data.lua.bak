@@ -1,0 +1,10 @@
+
+require("item.module")
+require("recipe.module")
+require("ModData.beacon")
+require("ModData.demo-fluid")
+require("ModData.accumulator")
+require("ModData.electric-furnace")
+require("ModData.logistic")
+require("ModData.advanced-circuit")
+require("ModData.roboport")

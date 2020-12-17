@@ -1,0 +1,13 @@
+{
+    "name": "fupc",
+    "version": "1.0.5",
+    "title": "fpc987的MOD",
+    "author": "fpc987",
+    "description": 
+    "很多内容作用:\n 1级速度插件:速度+200%,1级产能插件:产能+250%.\n启用装载机",
+    "factorio_version":"1.0",
+    "dependencies":
+    [
+        "base"
+    ]
+}
